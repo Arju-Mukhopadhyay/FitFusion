@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FitFusion - Fitness and Gym</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo-section">
+      <img src="logo1.png" alt="logo" class="logo" />
+      <h1 class="logo-text">FITFUSION</h1>
+    </div>
+    <ul class="nav-links">
+    <li class="dropdown">
+    <a href="#">Home ▾</a>
+    <ul class="dropdown-menu">
+    <li><a href="index.html">Main</a></li>
+    <li><a href="image.html">Trainers</a></li>
+    <li><a href="session.html">Sessions</a></li>
+    <li><a href="Euip.html">Equipments</a></li>
+    </ul>
+</li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="#training">Services</a></li>
+      <li><a href="price.html">Membership</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <a href="login.html" class="btn-primary">Get Started</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2 class="hero-heading">
+        YOUR BODY CAN <span class="highlight">STAND</span><br>
+        <span class="highlight">ALMOST</span> ANYTHING.
+      </h2>
+      <p class="hero-text">
+        It's your mind that needs convincing. Push past your limits, stay committed, and watch as your body transforms into a powerhouse of strength and resilience.
+      </p>
+
+      <div class="stats">
+        <div>
+          <h3 class="stat-number">1200+</h3>
+          <p class="stat-label">Active Members</p>
+        </div>
+        <div>
+          <h3 class="stat-number">12+</h3>
+          <p class="stat-label">Certified Trainers</p>
+        </div>
+        <div>
+          <h3 class="stat-number">20+</h3>
+          <p class="stat-label">Years of Experience</p>
+        </div>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="login.html" class="btn-primary"><button class="btn-primary">Get Started</button></a>
+        <a href="price.html"><button class="btn-secondary">Explore More</button></a>
+      </div>
+    </div>
+
+    <div class="chatbot-icon" onclick="toggleChatbot()">
+  <a href="http://127.0.0.1:5000" style="text-decoration: none; color: inherit;">🤖</a>
+</div> 
+  </section>
+  
+<div id="training" class="sliding-bar">
+  <div class="marquee">
+   <div class="sliding-bar">
+  <div class="marquee">
+    <span>✨ LIVE CLASSES ✨ ONLINE TRAINING ✨ OUTDOOR TRAINING ✨ PERSONAL TRAINING ✨ FITBOT RECOMMENDATIONS✨</span>
+    <span>✨ LIVE CLASSES ✨ ONLINE TRAINING ✨ OUTDOOR TRAINING ✨ PERSONAL TRAINING ✨ FITBOT RECOMMENDATIONS✨</span>
+    <span>✨ LIVE CLASSES ✨ ONLINE TRAINING ✨ OUTDOOR TRAINING ✨ PERSONAL TRAINING ✨ FITBOT RECOMMENDATIONS✨</span>
+    <span>✨ LIVE CLASSES ✨ ONLINE TRAINING ✨ OUTDOOR TRAINING ✨ PERSONAL TRAINING ✨ FITBOT RECOMMENDATIONS✨</span>
+    <span>✨ LIVE CLASSES ✨ ONLINE TRAINING ✨ OUTDOOR TRAINING ✨ PERSONAL TRAINING ✨ FITBOT RECOMMENDATIONS✨</span>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+
+
+<script>
+  const messages = document.querySelectorAll('#scroll-text span');
+  let index = 0;
+
+  function showNextMessage() {
+    messages.forEach((msg, i) => {
+      msg.style.display = (i === index) ? 'inline' : 'none';
+    });
+
+    index = (index + 1) % messages.length;
+  }
+
+  showNextMessage(); // Show first message immediately
+  setInterval(showNextMessage, 4000); // Change every 4 seconds
+</script>
+
+
+</body>
+</html>

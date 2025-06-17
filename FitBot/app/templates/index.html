@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FitBot - Your Fitness Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>💪 Welcome to FitBot</h1>
+        <div id="chatbox" class="chatbox"></div>
+
+        <div class="input-area">
+            <input id="msg" type="text" placeholder="Type your message..." />
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

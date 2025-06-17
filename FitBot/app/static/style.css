@@ -1,0 +1,117 @@
+/* Reset basic styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1a1a1a, #2e2e2e); /* soft dark pastel gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.75); /* glass effect */
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(204, 255, 0, 0.4);
+    padding: 20px;
+    color: white;
+}
+
+
+h1 {
+    text-align: center;
+    color: #CCFF00; /* neon yellow green */
+    margin-bottom: 20px;
+}
+
+.chatbox {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    height: 300px;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.6); /* dark transparent */
+    color: white;
+}
+
+.chat-message {
+    padding: 10px 14px;
+    margin: 10px 0;
+    border-radius: 20px;
+    max-width: 80%;
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.chat-message.user {
+    background-color: #CCFF00;
+    color: black;
+    align-self: flex-end;
+    text-align: right;
+    margin-left: auto;
+}
+
+.chat-message.bot {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    align-self: flex-start;
+    text-align: left;
+    margin-right: auto;
+}
+
+.input-area {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+#msg {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #CCC;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+#sendBtn {
+    padding: 10px 20px;
+    background-color: #CCFF00;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+#sendBtn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Chrome, Edge, Safari */
+.chatbox::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chatbox::-webkit-scrollbar-track {
+  background: #1a1a1a; /* dark pastel gray */
+  border-radius: 10px;
+}
+
+.chatbox::-webkit-scrollbar-thumb {
+  background-color: #CCFF00; /* neon yellow */
+  border-radius: 10px;
+  border: 2px solid #1a1a1a; /* gives padding effect */
+}
+
+/* Firefox */
+.chatbox {
+  scrollbar-width: thin;
+  scrollbar-color: #CCFF00 #1a1a1a;
+}

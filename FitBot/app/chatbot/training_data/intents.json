@@ -1,0 +1,195 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Hello", "Good morning", "Good afternoon", "Hii", "Hi there", "Hey there"],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there! What can I do for you?",
+        "Hey! How can I be of service today?"
+      ]
+    },
+    {
+      "tag": "membership",
+      "patterns": [
+        "How much is gym membership?",
+        "Membership plans?",
+        "Prices for gym?",
+        "How do I become a member?",
+        "Pricing?",
+        "Fee details",
+        "Cost of membership",
+        "Monthly charges",
+        "What are the membership rates?",
+        "membership",
+        "price",
+        "membership cost"
+      ],
+      "responses": [
+        "We have 3 plans: Monthly, Quarterly, and Yearly. Please check our pricing page or ask me for details!",
+        "Membership starts from Rs.1000/month. Want more details?"
+      ]
+    },
+    {
+      "tag": "workouts",
+      "patterns": ["Workout plans", "Best exercises", "How should I start?", "Fitness routines?", "Tell me a workout", "Full body workout"],
+      "responses": [
+        "We have tailored plans for beginners, intermediate, and advanced. Tell me your fitness level!",
+        "Here are some workout plans you can follow. Do you want a 3-day split or 5-day?"
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "What are your gym timings?",
+        "When are you open?",
+        "Opening hours",
+        "What time does gym open and close?",
+        "timing",
+        "timings",
+        "gym timing",
+        "hours"
+      ],
+      "responses": [
+        "We're open from 6 AM to 10 PM on weekdays, and 7 AM to 8 PM on weekends.",
+        "Our gym hours are 6:00 AM to 10:00 PM, Monday to Saturday."
+      ]
+    },
+    {
+      "tag": "trainers",
+      "patterns": [
+        "Do you have trainers?",
+        "Personal trainer available?",
+        "Tell me about your trainers",
+        "Is trainer included in membership?",
+        "trainer",
+        "trainers"
+      ],
+      "responses": [
+        "Yes! We have certified personal trainers available at all times.",
+        "Our trainers are professionally certified and always available to assist you."
+      ]
+    },
+    {
+      "tag": "diet",
+      "patterns": ["Do you provide diet plans?", "Nutrition advice?", "Can you give me a diet?", "Diet consultation?"],
+      "responses": [
+        "Yes, our trainers can provide personalized diet plans based on your fitness goals.",
+        "We offer diet consultations as part of select membership plans."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "Phone number",
+        "Email",
+        "Where is your gym located?",
+        "Address",
+        "Location",
+        "contact",
+        "contact details",
+        "call you",
+        "how to reach"
+      ],
+      "responses": [
+        "You can call us at +91-9876543210 or email us at contact@gymbot.in",
+        "We're located at 123 Fitness Street, New Town, Kolkata."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Talk to you later", "Thanks, bye"],
+      "responses": [
+        "Goodbye! Stay strong 💪",
+        "See you soon! Keep up the great work.",
+        "Take care! Come back for your next fitness tip."
+      ]
+    },
+    {
+      "tag": "equipment",
+      "patterns": [
+        "What equipment do you have?",
+        "Do you have cardio machines?",
+        "Is there a squat rack?",
+        "Tell me about your machines",
+        "Do you have free weights?"
+      ],
+      "responses": [
+        "We have a wide range of equipment including cardio machines, free weights, squat racks, and more.",
+        "Yes! Our gym is fully equipped with strength, cardio, and functional training equipment."
+      ]
+    },
+    {
+      "tag": "classes",
+      "patterns": [
+        "Do you have group classes?",
+        "What classes do you offer?",
+        "Yoga classes available?",
+        "Zumba timings?",
+        "Tell me about your fitness classes"
+      ],
+      "responses": [
+        "Yes, we offer group classes like Zumba, Yoga, HIIT, and CrossFit. Timings vary by day!",
+        "We conduct Zumba, Yoga, and strength classes every week. Would you like the schedule?"
+      ]
+    },
+    {
+      "tag": "offers",
+      "patterns": [
+        "Any current offers?",
+        "Discounts on membership?",
+        "Do you have promotions?",
+        "Is there any deal for new members?",
+        "Student discount?"
+      ],
+      "responses": [
+        "Yes! We currently offer a 10% discount for students and first-time members. Ask us more!",
+        "Check out our limited-time summer offer – 3 months at the price of 2!"
+      ]
+    },
+    {
+      "tag": "covid",
+      "patterns": [
+        "Is your gym safe during COVID?",
+        "Covid safety measures?",
+        "Do I need to wear a mask?",
+        "Is it sanitized?",
+        "What are your COVID guidelines?"
+      ],
+      "responses": [
+        "Yes, we follow strict sanitization protocols, thermal scanning, and social distancing.",
+        "Your safety is our top priority. We sanitize equipment after each use and follow all COVID guidelines."
+      ]
+    },
+    {
+      "tag": "app_support",
+      "patterns": [
+        "Do you have a mobile app?",
+        "Where can I download the app?",
+        "Is there a GymBot app?",
+        "App link?",
+        "I need help with the app"
+      ],
+      "responses": [
+        "Yes! Download our app from the Play Store or App Store by searching 'GymBot Fitness'.",
+        "Our GymBot app helps you track workouts, book classes, and access diet plans. Need the link?"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Motivate me",
+        "I need motivation",
+        "Tell me something inspiring",
+        "Give me a fitness quote",
+        "Say something to pump me up"
+      ],
+      "responses": [
+        "Push yourself, because no one else is going to do it for you!",
+        "Success starts with self-discipline.",
+        "Don’t limit your challenges, challenge your limits! 💪"
+      ]
+    }
+  ]
+}
