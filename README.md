@@ -58,7 +58,6 @@ The project is structured using Flask's MVC pattern:
 bash
 # Clone the repo
 https://github.com/Arju-Mukhopadhyay/FitFusion
-cd FitFusion
 
 # Set up environment
 python -m venv venv
