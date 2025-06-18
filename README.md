@@ -52,6 +52,16 @@ The project is structured using Flask's MVC pattern:
 - requirements.txt — all dependencies
 
 ---
+## 📸 Screenshots
+
+
+
+#### 🏠 Homepage  
+
+#### 🤖 Chatbot Interaction  
+
+
+
 
 ## 🚀 Getting Started
 
