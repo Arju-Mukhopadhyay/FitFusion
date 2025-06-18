@@ -57,6 +57,7 @@ The project is structured using Flask's MVC pattern:
 
 
 #### 🏠 Homepage  
+![Image](https://github.com/user-attachments/assets/3da209bd-0774-4aa7-a022-bcbf26c40805)
 
 #### 🤖 Chatbot Interaction  
 
