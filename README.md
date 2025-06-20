@@ -20,7 +20,7 @@ Everything is hand-coded with attention to detail, hover effects, and clean layo
 
 ## 🤖 FitBot – Your AI-Powered Fitness Assistant
 
-Integrated seamlessly into the site is *GymBot, an AI chatbot built with **Python, **Flask, and **Machine Learning*.
+Integrated seamlessly into the site is *FitBot, an AI chatbot built with **Python, **Flask, and **Machine Learning*.
 
 FitBot allows users to chat and ask about:
 
