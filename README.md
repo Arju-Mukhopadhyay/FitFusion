@@ -117,4 +117,4 @@ python train.py
 
 - 💻 HTML, CSS, JavaScript (Frontend)
 - 🧠 Python, Flask, Scikit-learn, NLTK (Backend & ML)
-- 🧑‍💻 By Subhangi Banerjee, Progya Biswas, Arju Mukhopadhyay
+- 🧑‍💻 By Arju Mukhopadhyay, Subhangi Banerjee, Progya Biswas
