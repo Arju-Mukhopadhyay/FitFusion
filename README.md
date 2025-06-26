@@ -65,9 +65,11 @@ The project is structured using Flask's MVC pattern:
 
 ![Image](https://github.com/user-attachments/assets/88a12a51-ea12-46ef-bf79-592601868938)
 
+![Image](https://github.com/user-attachments/assets/ce42f0c4-66f6-44e7-8de0-7f4f1a3ecfeb)
+
 ![Image](https://github.com/user-attachments/assets/d737d2fa-1b83-48d1-8fc5-796c4e61e211)
 
-![Image](https://github.com/user-attachments/assets/ce42f0c4-66f6-44e7-8de0-7f4f1a3ecfeb)
+![Image](https://github.com/user-attachments/assets/af6b0471-e2c0-40cc-88a6-68db27a618fa)
 
 ![Image](https://github.com/user-attachments/assets/5132dee1-788a-4e20-8fa4-148cdd6a2638)
 
